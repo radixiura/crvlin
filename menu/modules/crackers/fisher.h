@@ -25,27 +25,21 @@ int fisher_func_choose()
     {
         case 1:
             vk.open("fisher_html/vk.html");
-            ShellExecute(nullptr, "open", "https://www.vk.com", nullptr, nullptr, SW_SHOWDEFAULT); //vk
             break;
         case 2:
             inst.open("fisher_html/inst.html");
-            ShellExecute(nullptr, "open", "https://www.instagram.com", nullptr, nullptr, SW_SHOWDEFAULT); //inst
             break;
         case 3:
             steam.open("fisher_html/steam.html");
-            ShellExecute(nullptr, "open", "https://www.store.steampowered.com", nullptr, nullptr, SW_SHOWDEFAULT); //steam
             break;
         case 4:
             yt.open("fisher_html/yt.html");
-            ShellExecute(nullptr, "open", "https://www.youtube.com", nullptr, nullptr, SW_SHOWDEFAULT); //youtube
             break;
         case 5:
             wb.open("fisher_html/wb.html");
-            ShellExecute(nullptr, "open", "https://www.wildberries.ru/", nullptr, nullptr, SW_SHOWDEFAULT); //wildberries
             break;
         case 6:
             rdxr.open("fisher_html/rdxr.html");
-            ShellExecute(nullptr, "open", "https://www.google.com", nullptr, nullptr, SW_SHOWDEFAULT); //rdxr
             break;
         default:
             std::cout << "Error";
